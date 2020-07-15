@@ -10,6 +10,7 @@ public class Problem4A {
 
 	public static void main(String[] args) {
 		int w = input.nextInt();
+		//must check if greater than 2 because the resulting halves must be even numbers
 		if (w > 2 && w % 2 == 0)
 			System.out.print("YES");
 		else
